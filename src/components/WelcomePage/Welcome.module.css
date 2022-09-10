@@ -1,0 +1,16 @@
+.welcome{
+   
+    line-height: 3;
+}
+.welcomeheading h2, .welcomefooter h2{
+    text-align: center;
+}
+
+.welcomeImgs{
+    text-align: center;
+    
+}
+.welcomeImgs img  {
+    height: 50vh;
+    z-index: 0;
+}

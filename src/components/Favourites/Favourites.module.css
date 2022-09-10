@@ -1,0 +1,76 @@
+.favGroup{
+    height: 100vh;
+}
+
+.theFavsCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.theFavCard{
+    background-color: black;
+    color: white;
+    overflow-wrap: break-word;
+    width: 25%;
+    height: 150px;
+    margin: 20px 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+    
+}
+.favsTitle{
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.favsdate{
+    font-size: 0.7em;
+}
+.favsTextarea{
+    line-height: 1.5;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.togglers{
+    position: absolute;
+    bottom: 10px;
+}
+.togglers > *{
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+
+.togglers > *:hover{
+    color: rgba(245, 243, 243, 0.822);
+}
+
+.notesbtn button{
+    font-size: 1em;
+    width: 10rem;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    background-color: rgba(0, 0, 0, 0.705);
+
+}
+.notesbtn button:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.nocards{
+    font-size: 3em;
+    color: rgba(255, 0, 0, 0.575);
+    text-align: center;
+    margin-top: 20rem;
+}

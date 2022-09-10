@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+.todoHeader{
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+    color: white;  
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+

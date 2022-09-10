@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+.formHead{
+    font-size: 1.4em;
+}
+.collectNote > div{
+    margin-bottom: 20px;
+}
+
+.collectNote > div> div{
+    margin-bottom: 20px;
+}
+/* .form{
+    width: 60vw;
+    margin: 0 auto;
+} */
+.formTitle input{
+    width: 87.5%;
+    font-size: 1em;
+    padding: 10px;
+    outline: none;
+}
+.note textarea{
+    font-size: 1.1em;
+    padding: 10px;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.handleform > button{
+    font-size: 1em;
+    width: 10rem;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.handleform > button:hover{
+    background-color: rgb(175, 175, 175);
+}
+.handleform > .savebtn{
+    background-color: green;
+}
+.handleform > .cancelbtn{
+    background-color: red;
+}
+.handleform > .notesbtn{
+    background-color: rgb(101, 145, 160);
+}

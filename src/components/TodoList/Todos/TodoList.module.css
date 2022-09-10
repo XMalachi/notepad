@@ -1,0 +1,121 @@
+.todoListPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.todolist{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    width: 50%;
+    padding: 20px;
+}
+
+ul{
+    flex-direction: column;
+    margin: 0 10px;
+
+}
+.list .listItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: circle;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list .listItem:hover{
+    background-color: rgba(190, 215, 223, 0.829);
+    list-style-type: disc ;
+}
+
+.list button {
+    /* float: right; */
+    background: none;
+    border: none;
+    outline: none;
+    color: grey;
+    cursor: pointer;
+}
+
+.list button:hover {
+    color: purple;
+}
+
+.formGroup{
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formGroup .input{
+    font-size: 1em;
+    width: 96%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.btnClass{
+    position: relative;
+    text-align: center;
+    top: 40px;
+    
+}
+.btnClass > *{
+    transition: 0.5s ease-in;
+}
+
+.btnClass > *:hover{
+    background-color: black;
+
+}
+
+.btnGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn, .btnSubmit{
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    width: 250px;
+}
+
+
+.btnSubmit:hover{
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+.btnCancel{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    width: 250px;
+}
+.btnCancel:hover{
+    letter-spacing: 2px;
+    background-color: rgba(255, 0, 0, 0.596);
+}

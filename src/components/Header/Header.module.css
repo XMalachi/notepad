@@ -1,0 +1,49 @@
+.notepadHeader{
+    position: fixed;
+    top: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 70px;
+    padding: 10px 20px;
+    z-index: 99;
+}
+
+.toggler{
+    display: flex;
+    align-items: center;
+}
+.toggler .hamburger{
+    margin-right: 20px;
+    font-size: 2.5em;
+}
+.toggler .favourites{
+    font-size:1.5em;
+    
+}
+.toggler .favIcon{
+    color: red;
+    font-size:1.5em;
+}
+.toggler> *{
+    cursor: pointer;
+}
+.toggler> *:hover{
+    color: rgb(196, 194, 194);
+}
+
+
+.heading  {
+    margin-left: -40px;
+}
+.addnote >*{
+    cursor: pointer;
+}
+
+.addnote >*:hover{
+    color: rgb(196, 194, 194);
+}

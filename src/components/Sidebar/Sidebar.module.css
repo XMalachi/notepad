@@ -1,0 +1,86 @@
+.sidebar{
+    position: fixed;
+    top: 100px;
+    height: 100vh;
+    width: 20vw;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    overflow: scroll;
+}
+.sidebar .search{
+    width: 90%;
+    height: 20px;
+    margin: 5px 0 25px ;
+}
+.sidebar .search input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    height: 100%;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+.sidebarheader{
+    margin: 30px 20px 0;
+}
+
+.addnote{
+    position: fixed;
+    bottom: 10vh;
+    left: 110px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.addnote:hover{
+    background-color: rgba(192, 192, 192, 0.219);
+    color: white;
+}
+.addnote:hover > *{
+    color: white;
+}
+.addnote button{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.sidebarNotes{
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+    outline: none;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.sidebarNotes > * {
+    margin: 10px 0;
+}
+.sidebarNotes .title{
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+.sidebarNotes .textarea{
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.753);
+}
+.sidebarNotes .date{
+    font-size: 0.6em;
+    color: rgba(255, 255, 255, 0.521);
+}
